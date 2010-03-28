@@ -19,3 +19,13 @@ Rendering rescues/layout (not_found)
 Processing PagesController#home (for 127.0.0.1 at 2010-03-28 13:10:35) [GET]
 Rendering pages/home
 Completed in 151ms (View: 150, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-03-28 13:57:18) [GET]
+Rendering pages/about
+Completed in 163ms (View: 156, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-03-28 14:07:44) [GET]
+Rendering pages/about
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/about]
