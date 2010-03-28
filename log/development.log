@@ -1,0 +1,21 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-28 13:09:10) [GET]
+
+ActionController::RoutingError (No route matches "/pages/contact" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-28 13:09:23) [GET]
+
+ActionController::RoutingError (No route matches "/pages/home" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-03-28 13:10:35) [GET]
+Rendering pages/home
+Completed in 151ms (View: 150, DB: 0) | 200 OK [http://localhost/pages/home]
