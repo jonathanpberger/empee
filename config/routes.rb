@@ -1,4 +1,10 @@
 ActionController::Routing::Routes.draw do |map|
+    # authlogic told me to do this. sessions do not persist across time.
+    map.resource :user_session
+
+    # users controller. users persist across time.
+    map.resources :users
+
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:
