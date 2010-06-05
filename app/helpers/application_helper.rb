@@ -11,4 +11,9 @@ module ApplicationHelper
      end
    end
 
+   def flash_helper
+     flash.map do |level, message|
+       content_tag(:div, message, :class => level) if message.present?
+     end
+   end
 end
